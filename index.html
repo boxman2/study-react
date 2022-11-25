@@ -7,36 +7,41 @@
     <title>Document</title>
 </head>
 <body>
-    <div>First name :</div>
-    <input type="text">
-    <div>Last name :</div>
-    <input type="text">
-    <div>Email :</div>
-    <input type="text">
-    <div>
-        <span>Gender :</span>
-        <input type="radio" name="male" value="male"> Male
-        <input type="radio" name="male" value="female"> Female
-    </div>
-    <div>
-        <span>Favorite :</span>
-        <input type="checkbox" name="favorite">HTML
-        <input type="checkbox" name="favorite">CSS
-        <input type="checkbox" name="favorite">JAVASCRIPT
-    </div>
-    <div>
-        <span>Browser :</span>
-        <select name="Browser" id="">
-            <option value="chrome">크롬</option>
-            <option value="safari">사파리</option>
-            <option value="edge">엣지</option>
-        </select>
-    </div>
-    <div>
-        <span>Birthday :</span>
-        <input type="date">
-    </div>
-    <input type="submit"/>
+    <form>
+        <div>First name :</div>
+        <input type="text" required>
+        <div>Last name :</div>
+        <input type="text" required>
+        <div>Email :</div>
+        <input type="text" required>
+        <div>
+            <span>Gender :</span>
+            <input type="radio" name="male" value="male" required> Male
+            <input type="radio" name="male" value="female"> Female
+        </div>
+        <div>
+            <span>Favorite :</span>
+            <input type="checkbox" name="favorite">HTML
+            <input type="checkbox" name="favorite">CSS
+            <input type="checkbox" name="favorite">JAVASCRIPT
+        </div>
+        <div>
+            <span>Browser :</span>
+            <select name="Browser" id="">
+                <option value="chrome">크롬</option>
+                <option value="safari">사파리</option>
+                <option value="edge">엣지</option>
+            </select>
+        </div>
+        <div>
+            <span>Birthday :</span>
+            <input type="date">
+        </div>
+        <input type="submit" />
+    </form>
+    <label><input type="checkbox" /> 바나나
+        <input type="checkbox" /> 바나나</label>
+
 
 </body>
 </html>
